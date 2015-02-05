@@ -3,7 +3,6 @@ tcos-dev
 
 container for developing tcos packages
 
-
 requirements
 ============
 
@@ -26,18 +25,20 @@ from docker hub:
 ```
 docker pull steffenhoenig/tcos-dev
 ```
-
 source tcosdev.rc
 
 ```
 D [optional docker options]
 ```
-
 -or-
-
 ```
 Z [optional docker options]
-
-
 D = interactive development profile
 Z = starts sshd and is meant for services
+```
+
+full installation guide 
+============
+A full package development guide can be found in our wiki.
+
+http://wiki.openthinclient.org/wiki/Pakete-Entwickeln/en
